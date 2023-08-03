@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    background-image: url('img/bk.jpg');
+    background-size: 100% 100%;
+}
+#form-log{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(245, 237, 226,0.7);
+    border-radius:10px ;
+}
+#usre{
+    border: 1px solid blue;
+    height: 20px;
+}
+#password{
+    height: 20px;
+    border: 1px solid blue;
+}
+#login{
+    width: 100%;
+    background-color:aquamarine;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+#login:hover{
+    background-color: antiquewhite;
+}
+#sign{
+    width: 100%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#sign:hover{
+    background-color: antiquewhite;
+}
+#quenmatkhau{
+    text-decoration: none;
+    color: black;
+}
+#quenmatkhau:hover{
+    
+    color: blue;
+}
+#ghinho{
+    margin-top: 0px;
+}
+#hienthi{
+    color: red;
+}
